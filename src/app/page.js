@@ -27,10 +27,10 @@ export default function Home() {
             </p>
 
             <div className="flex pt-6">
-              <button className="bg-black text-white rounded-md px-4 py-2 mr-4">
+              <button className="bg-black text-white rounded-md px-4 py-2 mr-4 hover:bg-opacity-80">
                 apply now (~10 mins)
               </button>
-              <button className="bg-white text-black border-dashed border-2 border-black rounded-md px-4 py-2 ">
+              <button className="bg-white text-black border-dashed border-2 border-black rounded-md px-4 py-2 hover:border-solid">
                 not sure yet?
               </button>
             </div>
