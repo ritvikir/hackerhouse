@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { MdLocationOn } from 'react-icons/md';
+import {MdDateRange} from 'react-icons/md'
 
 export default function Home() {
   return (
@@ -7,12 +9,25 @@ export default function Home() {
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class=" place-self-center lg:col-span-7 mx-auto">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl">
-              GravitasHouse
+              gravitashouse
             </h1>
             <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl ">
-              We invite you to spend two weeks with us connecting, learning, and building
+              we invite you to spend two weeks with us connecting, learning, and building.
             </p>
+            <div className="text-lg text-pink-400 ">
+              <div className="inline-block pr-10">
+              <MdLocationOn className="text-2xl inline-block mr-[1px] mb-1" />
+             <div className="inline-block">pandhandle, sf</div>
+              </div>
+             <div className="inline-block">
+             <MdDateRange className="text-2xl inline-block mb-1 mr-[2px]" />
+             <div className="inline-block">~late december</div>
+
+             </div>
+
+            </div>
           </div>
+
           <div className="relative hidden lg:mt-0 lg:col-span-5 lg:flex">
             <Image
               src="/sfhill.jpeg"
