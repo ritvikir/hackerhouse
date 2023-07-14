@@ -1,30 +1,38 @@
 import Image from "next/image";
-import { MdLocationOn } from 'react-icons/md';
-import {MdDateRange} from 'react-icons/md'
+import { MdLocationOn } from "react-icons/md";
+import { MdDateRange } from "react-icons/md";
 
 export default function Home() {
   return (
     <div>
       <section class="bg-white">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div class=" place-self-center lg:col-span-7 mx-auto">
+          <div class=" place-self-center lg:col-span-7 mt-20 mx-auto">
+            <div className="text-lg text-pink-400 mb-4">
+              <div className="inline-block pr-10">
+                <MdLocationOn className="text-2xl inline-block mr-[1px] mb-1" />
+                <div className="inline-block">pandhandle, sf</div>
+              </div>
+              <div className="inline-block">
+                <MdDateRange className="text-2xl inline-block mb-1 mr-[2px]" />
+                <div className="inline-block">~late december</div>
+              </div>
+            </div>
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl">
               gravitashouse
             </h1>
             <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl ">
-              we invite you to spend two weeks with us connecting, learning, and building.
+              we invite you to spend two weeks with us connecting, learning, and
+              building.
             </p>
-            <div className="text-lg text-pink-400 ">
-              <div className="inline-block pr-10">
-              <MdLocationOn className="text-2xl inline-block mr-[1px] mb-1" />
-             <div className="inline-block">pandhandle, sf</div>
-              </div>
-             <div className="inline-block">
-             <MdDateRange className="text-2xl inline-block mb-1 mr-[2px]" />
-             <div className="inline-block">~late december</div>
 
-             </div>
-
+            <div className="flex pt-6">
+              <button className="bg-black text-white rounded-md px-4 py-2 mr-4">
+                apply now (~10 mins)
+              </button>
+              <button className="bg-white text-black border-dashed border-2 border-black rounded-md px-4 py-2 ">
+                not sure yet?
+              </button>
             </div>
           </div>
 
