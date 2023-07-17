@@ -23,9 +23,9 @@ export default function Home() {
               gravitashouse
             </h1>
             <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl ">
-              we invite you to spend two weeks with us {" "}  
+              we invite you to spend two weeks with us connecting, learning, and building {" "}
               <span className="bg-yellow-100">
-                 connecting, learning, and building.
+                  with AR/VR.
               </span>  
               
             
